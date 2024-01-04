@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#controls {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.checkpoint {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkpoint-label {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#optimized-route {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.route-step {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#progress {
+    display: none;
+}
+
+#progress-bar {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#progress-bar-fill {
+    width: 0;
+    height: 20px;
+    background-color: #f07b26;
+}
+
+.button {
+    background-color: #f07b26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
